@@ -5,3 +5,10 @@ Author: Filippa Simard
 Template: twentytwentyone
 Version: 1.0
 */
+
+@import url('styles/utilitaire.css');
+@import url('styles/banniere.css');
+@import url('styles/grille.css');
+@import url('styles/tuile.css');
+@import url('styles/zone.css');
+@import url('styles/article.css');
