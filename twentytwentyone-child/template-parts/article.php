@@ -23,15 +23,15 @@ $article_image = $champs['article_image']['url'];
 			<?php if ( $article_categorie ) : ?>
 			 <p class="article__rythme"><?php echo esc_html( $article_categorie ) ?> </p>
 			<?php endif; ?>
-				<div class="article__rythme">
-					<p class="article__sous-titre">Description</p>
-								<?php if ( $article_description ) : ?>
+			<div class="article__rythme">
+				<p class="article__sous-titre">Description</p>
+				<?php if ( $article_description ) : ?>
 					<p><?php echo esc_html( $article_description ); ?></p>
-								<?php endif; ?>
-				</div>
-				<?php if ( $article_prix ) : ?>
-				<p class="article__prix article__rythme"><?php echo esc_html( $article_prix ); ?> $</p>
+				<?php endif; ?>
+			</div>
+			<?php if ( $article_prix ) : ?>
+			<p class="article__prix article__rythme"><?php echo esc_html( $article_prix ); ?> $</p>
 			<?php endif; ?>
-	</div>
+		</div>
     </div>
 </article>

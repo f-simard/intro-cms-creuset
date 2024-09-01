@@ -8,17 +8,16 @@ img {
 }
 
 ul,
-ol{
+ol {
 	margin: 0;
 	padding: 0 2vw;
 }
 
 .site-footer.site-footer_ttoc,
-.site-header.site-header_ttoc{
+.site-header.site-header_ttoc {
 	margin: 0;
 	padding: 0;
 	max-width: none;
-
 }
 
 .footer-navigation.footer-navigation_ttoc {
