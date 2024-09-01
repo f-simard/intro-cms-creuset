@@ -17,7 +17,7 @@
 }
 
 .article__rythme + .article__rythme {
-	margin-top: 2rem;
+	margin-top: var(--mt-SM);
 }
 
 .article__sous-titre{

@@ -7,8 +7,10 @@ Version: 1.0
 */
 
 @import url('styles/reset.css');
+@import url('styles/variables.css');
 @import url('styles/utilitaire.css');
 @import url('styles/footer.css');
+@import url('styles/header.css');
 @import url('styles/banniere.css');
 @import url('styles/grille.css');
 @import url('styles/tuile.css');

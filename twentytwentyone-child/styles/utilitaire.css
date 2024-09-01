@@ -1,9 +1,9 @@
 .wrapper {
-	padding-inline: 12vw;
+	padding-inline: var(--espace-L);
 }
 
 .wrapper_etroit {
-	padding: 6vw;
+	padding: var(--espace-S);
 }
 
 .bg_rose{
@@ -15,5 +15,5 @@
 }
 
 .mt_medium{
-	margin-top: 2rem;
+	margin-top: var(--mt-M);
 }

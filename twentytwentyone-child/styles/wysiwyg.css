@@ -2,11 +2,11 @@
 	padding-block: 2vw;
 	
 	* + p {
-		margin-top: 1rem;
+		margin-top: var(--mt-S);
 	};
 
 	* + ul {
-		margin-top: 2rem;
+		margin-top: var(--mt-M);
 	};
 
 	p:has(img){
