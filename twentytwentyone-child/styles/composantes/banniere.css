@@ -1,0 +1,36 @@
+.banniere {
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: 25% 40%;
+	max-width: none;
+}
+
+.banniere_accueil {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	height: 60vh;
+}
+
+.banniere_accueil > * {
+	color: white;
+	font-size: var(--global--font-size-xxl);
+}
+
+.banniere_page {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+
+	height: 40vh;
+}
+
+.banniere_page > * {
+	flex-basis: 50%;
+}
+
+.banniere_page p {
+	color: black;
+	font-size: var(--global--font-size-l);
+}

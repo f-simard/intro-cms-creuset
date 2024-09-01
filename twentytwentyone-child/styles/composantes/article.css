@@ -1,0 +1,27 @@
+.article > div {
+	display: flex;
+	gap: 4vw;
+	margin-top: var(--mt-L)
+}
+
+.article__media {
+
+	display: block;
+	aspect-ratio: 1;
+	min-width: 25vw;
+
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	};
+}
+
+.article__rythme + .article__rythme {
+	margin-top: var(--mt-M);
+}
+
+.article__sous-titre,
+.article__prix {
+	font-weight: 600;
+}

@@ -1,0 +1,8 @@
+.site-footer.site-footer_ttoc{
+
+	padding: 0 var(--espace-S);
+
+	.footer-navigation-wrapper{
+		justify-content: start;
+	}
+}

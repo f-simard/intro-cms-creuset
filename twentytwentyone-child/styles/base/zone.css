@@ -1,0 +1,7 @@
+.zone + .zone {
+	margin-top: 3rem;
+}
+
+.zone__titre{
+	margin-bottom: var(--mt-L);
+}

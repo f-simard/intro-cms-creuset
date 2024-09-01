@@ -6,15 +6,16 @@ Template: twentytwentyone
 Version: 1.0
 */
 
-@import url('styles/reset.css');
-@import url('styles/variables.css');
-@import url('styles/utilitaire.css');
-@import url('styles/footer.css');
-@import url('styles/header.css');
-@import url('styles/banniere.css');
-@import url('styles/grille.css');
-@import url('styles/tuile.css');
-@import url('styles/zone.css');
-@import url('styles/article.css');
-@import url('styles/article.css');
-@import url('styles/wysiwyg.css');
+@import url('styles/base/reset.css');
+@import url('styles/base/variables.css');
+@import url('styles/base/zone.css');
+
+@import url('styles/composantes/footer.css');
+@import url('styles/composantes/header.css');
+@import url('styles/composantes/banniere.css');
+@import url('styles/composantes/grille.css');
+@import url('styles/composantes/tuile.css');
+@import url('styles/composantes/article.css');
+@import url('styles/composantes/wysiwyg.css');
+
+@import url('styles/base/utilitaire.css');

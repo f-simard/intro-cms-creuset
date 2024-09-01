@@ -1,0 +1,4 @@
+.site-header.site-header_ttoc{
+	padding: 0 var(--espace-S);
+	padding-top: var(--global--spacing-vertical);
+}

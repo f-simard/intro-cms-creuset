@@ -30,7 +30,7 @@ $article_image = $champs['article_image']['url'];
 								<?php endif; ?>
 				</div>
 				<?php if ( $article_prix ) : ?>
-				<p class="article__rythme"><?php echo esc_html( $article_prix ); ?> $</p>
+				<p class="article__prix article__rythme"><?php echo esc_html( $article_prix ); ?> $</p>
 			<?php endif; ?>
 	</div>
     </div>

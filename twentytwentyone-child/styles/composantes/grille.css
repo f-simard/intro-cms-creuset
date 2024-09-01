@@ -1,0 +1,23 @@
+/*src: https://codepen.io/SimonCB/pen/ZEQLQZd */
+.grille {
+    display: grid;
+}
+
+.grille_3 {
+	gap: 2.5vw;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grille_4 {
+    gap: 1.75vw;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grille_3 {
+    gap: 2.5vw;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grille__item {
+	width: 100%;
+}
