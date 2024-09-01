@@ -6,6 +6,7 @@ Template: twentytwentyone
 Version: 1.0
 */
 
+@import url('styles/reset.css');
 @import url('styles/utilitaire.css');
 @import url('styles/footer.css');
 @import url('styles/banniere.css');
@@ -13,3 +14,5 @@ Version: 1.0
 @import url('styles/tuile.css');
 @import url('styles/zone.css');
 @import url('styles/article.css');
+@import url('styles/article.css');
+@import url('styles/wysiwyg.css');
