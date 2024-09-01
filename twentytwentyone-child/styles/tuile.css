@@ -25,4 +25,9 @@
 	h3 {
 		text-align: center;
 	}
+
+	:focus h3{
+		color: black;
+		transform: scale(0.95);
+	};
 }

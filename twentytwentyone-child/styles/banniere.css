@@ -17,3 +17,20 @@
 	color: white;
 	font-size: var(--global--font-size-xxl);
 }
+
+.banniere_page {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+
+	height: 40vh;
+}
+
+.banniere_page > * {
+	flex-basis: 50%;
+}
+
+.banniere_page p {
+	color: black;
+	font-size: var(--global--font-size-l);
+}

@@ -1,11 +1,19 @@
 .wrapper {
-	padding-inline: 8vw;
+	padding-inline: 12vw;
 }
 
 .wrapper_etroit {
-	padding: 4vw;
+	padding: 6vw;
 }
 
 .bg_rose{
 	background-color: #ffecf2;
+}
+
+.bg_grispale {
+	background-color: #F5F7F6;
+}
+
+.mt_medium{
+	margin-top: 2rem;
 }

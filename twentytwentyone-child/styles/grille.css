@@ -1,7 +1,6 @@
-/*src: https://codepen.io/SimonCB/pen/ZEQLQZd*/
+/*src: https://codepen.io/SimonCB/pen/ZEQLQZd */
 .grille {
     display: grid;
-    padding: 0 4vw;
 }
 
 .grille_3 {
@@ -12,6 +11,11 @@
 .grille_4 {
     gap: 1.75vw;
     grid-template-columns: repeat(4, 1fr);
+}
+
+.grille_3 {
+    gap: 2.5vw;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .grille__item {

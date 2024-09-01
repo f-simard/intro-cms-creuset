@@ -38,7 +38,7 @@ $article_categorie = get_field_object('field_66a29754a0146')['choices'];
 
 <div class="wrapper_etroit bg_rose">
 	<?php
-	foreach ( $article_categorie as $key=>$value ) {
+	foreach ( $article_categorie as $key=>$value ) :
 	?>
 		<section class="zone">
 		<h2 class="zone__titre"> <?php echo esc_html($value); ?> </h2>
@@ -76,7 +76,7 @@ $article_categorie = get_field_object('field_66a29754a0146')['choices'];
 			<?php endif; ?>
 		</section>
 	<?php
-	} //fin de la boucle pour les catégories
+	endforeach; //fin de la boucle pour les catégories
 	?>
 </div>
 
