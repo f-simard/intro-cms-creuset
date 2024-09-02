@@ -1,0 +1,3 @@
+git: https://github.com/f-simard/intro-cms-creuset
+webdev: https://e2396414.webdev.cmaisonneuve.qc.ca/creuset/
+admin/12345

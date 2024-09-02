@@ -2,18 +2,18 @@
 
 $champs = get_fields();
 
-$article_description = $champs['article_description'];
-$article_prix = $champs['article_prix'];
-$article_description = $champs['article_description'];
-$article_categorie = $champs['article_categorie']['label'];
-$article_image = $champs['article_image']['url'];
+$article_description = $champs[ 'article_description' ];
+$article_prix = $champs[ 'article_prix' ];
+$article_description = $champs[ 'article_description' ];
+$article_categorie = $champs[ 'article_categorie' ][ 'label' ];
+$article_image = $champs[ 'article_image' ][ 'url' ];
 
 ?>
 
 <!-- mettre affichage de variable dans structure de conditionnel -->
 <article class="wrapper article">
-    <h2><?php the_title(); ?></h2>
-    <div>
+	<h2><?php the_title(); ?></h2>
+	<div>
 		<?php if ( $article_image ) : ?>
 			<picture class="article__media">
 				<img src="<?php echo $article_image ?>" alt="<?php esc_attr( the_title() ); ?>">
@@ -33,5 +33,5 @@ $article_image = $champs['article_image']['url'];
 			<p class="article__prix article__rythme"><?php echo esc_html( $article_prix ); ?> $</p>
 			<?php endif; ?>
 		</div>
-    </div>
+	</div>
 </article>
